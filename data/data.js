@@ -1,60 +1,60 @@
 export const platforms = [
   {
-    android: {
+    kotlin: {
       android: {
-        chat: { url: "1kotlin-app-url", description: "Chat application" },
-        one2one: {
-          url: "kotlinOne2One",
-          description: "one to one call",
+        app1: { url: "1kotlin-app-url", description: "application" },
+        app2: {
+          url: "2kotlin-app-url",
+          description: "application",
         },
-        one2many: { url: "kotlinOne2Many", description: "broadcasting app" },
-        many2many: { url: "kotlinM2M", description: "private group call" },
-        // combined: { url: "5kotlin-app-url", description: "download" },
-        // ok: { url: "6kotlin-app-url", description: "download" },
-        // bye: { url: "7kotlin-app-url", description: "download" },
+        app3: { url: "3kotlin-app-url", description: "application" },
+        app4: { url: "4kotlin-app-url", description: "application" },
+        app5: { url: "5kotlin-app-url", description: "download" },
+        app6: { url: "6kotlin-app-url", description: "download" },
+        app7: { url: "7kotlin-app-url", description: "download" },
       },
-      // ios: { null: "null" },
+      ios: { null: "null" },
     },
   },
   {
     swift: {
       // android: { null: "null" },
       ios: {
-        chat: { url: "1ios-app-url", description: "download" },
-        one2one: { url: "2ios-app-url", description: "download" },
-        one2many: { url: "3ios-app-url", description: "download" },
-        many2many: { url: "4ios-app-url", description: "download" },
-        combined: { url: "5ios-app-url", description: "download" },
+        app1: { url: "1ios-app-url", description: "download" },
+        app2: { url: "2ios-app-url", description: "download" },
+        app3: { url: "3ios-app-url", description: "download" },
+        app4: { url: "4ios-app-url", description: "download" },
+        app5: { url: "5ios-app-url", description: "download" },
       },
     },
   },
   {
     flutter: {
       android: {
-        chat: { url: "1flutter-app-url", description: "chat application" },
-        one2one: { url: "2flutter-app-url", description: "one to one call" },
-        one2many: { url: "3flutter-app-url", description: "download" },
-        many2many: {
+        app1: { url: "1flutter-app-url", description: "application" },
+        app2: { url: "2flutter-app-url", description: "application" },
+        app3: { url: "3flutter-app-url", description: "download" },
+        app4: {
           url: "4flutter-app-url",
-          description: "private group chat",
+          description: "application",
         },
-        combined: { url: "5flutter-app-url", description: "download" },
+        app5: { url: "5flutter-app-url", description: "download" },
       },
       ios: {
-        chat: { url: "1flutter-app-url-ios", description: "download" },
-        one2one: {
+        app1: { url: "1flutter-app-url-ios", description: "download" },
+        app2: {
           url: "2flutter-app-url-ios",
           description: "download",
         },
-        one2many: {
+        app3: {
           url: "3flutter-app-url-ios",
           description: "download",
         },
-        many2many: {
+        app4: {
           url: "4flutter-app-url-ios",
           description: "download",
         },
-        combined: {
+        app5: {
           url: "5flutter-app-url-ios",
           description: "download",
         },
@@ -64,37 +64,41 @@ export const platforms = [
   {
     javascript: {
       web: {
-        meeting: {
-          url: "https://meeting.vdotok.com",
-          description: "Conference Call",
+        app1: {
+          url: "url1",
+          description: "web app",
         },
-        meet: {
-          url: "https://meet.vdotok.com",
-          description: "Conference Call + chat",
+        app2: {
+          url: "url2",
+          description: "web app",
         },
-        chat: {
-          url: "https://chat.vdotok.com",
-          description: "chat application",
+        app3: {
+          url: "url3",
+          description: "web app",
         },
-        // rOne2One: {
-        //   url: "https://react-one2one.vdotok.com",
-        //   description: "calling app p2p/media",
-        // },
-        many2many: {
-          url: "https://many2many.vdotok.com",
-          description: "many2many calling app",
+        app4: {
+          url: "url4",
+          description: "cweb app",
         },
-        one2one: {
-          url: "https://one2one.vdotok.com",
-          description: "one2one calling application",
+        app5: {
+          url: "url5",
+          description: "web app",
         },
-        one2many: {
-          url: "https://one2many.vdotok.com",
-          description: "public broadcast",
+        app6: {
+          url: "url6",
+          description: "web app",
         },
-        vdotokPlugin: {
-          url: "https://plugin.vdotok.dev",
-          description: "Live Shopping plugin",
+        app7: {
+          url: "url7",
+          description: "web app",
+        },
+        app8: {
+          url: "url8",
+          description: "web app",
+        },
+        app9: {
+          url: "url9",
+          description: "web app",
         },
       },
     },
